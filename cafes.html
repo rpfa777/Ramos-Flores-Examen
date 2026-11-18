@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <title>Caffenio</title>
+    <img src="logo.jpg" width="150">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .barra-nav {
+            background-color: #100;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .barra-nav img {
+            height: 50px;
+            width: auto;
+        }
+
+        .barra-nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .contenido {
+            padding: 20px;
+        }
+
+
+        footer {
+            background-color: #100;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #ccc;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Bebidas</h1>
+    <div class="barra-nav">
+        <nav>
+            <a href="index.html">Inicio</a> |
+            <a href="Consumibles.html">Consumibles</a> 
+        </nav>
+    </div>
+
+        <table width="80%">
+            <tr>
+                <td align="center">
+                    <img src="cafefrio.webp" width="150">
+                    <h4>Café Frío</h4>
+                </td>
+
+
+                <td align="center">
+                    <img src="cafeca.png" width="150">
+                    <h4>Café Caliente</h4>
+                </td>
+
+                <td align="center">
+                    <img src="matcha.jpeg" width="150">
+                    <h4>Matcha</h4>
+                </td>
+            </tr>
+        </table>
+
+        <h2>Seleccione el producto que desea</h2>
+
+        <form>
+            <select name="Menú">
+                <option value="Café Caliente">Café Caliente</option>
+                <option value="Café frío">Café frío</option>
+                <option value="Matcha">Matcha</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Comprar producto">
+        </form>
+
+        <br><br>
+        <footer>Ramos Flores Alexis <br>5-i</footer>
+    </center>
+
+</body>
+</html>
